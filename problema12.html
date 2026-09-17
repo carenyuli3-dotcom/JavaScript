@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contador con paso</title>
+</head>
+
+<body>
+
+<script>
+
+let i = parseInt(prompt("Ingrese el valor inicial:"));
+let f = parseInt(prompt("Ingrese el valor final:"));
+let p = parseInt(prompt("Ingrese el paso:"));
+
+if (i <= f) {
+
+while (i <= f) {
+  document.write(i + " , ");
+  i = i + p;
+   }
+ } else {
+
+   while (i >= f) {
+    document.write(i + " , ");
+    i = i - p;
+    }
+
+    }
+
+</script>
+
+</body>
+</html>

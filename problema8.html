@@ -1,0 +1,33 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clasificación de edad</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+<script>
+    let edad;
+
+    edad = parseInt(prompt("Ingrese su edad:"));
+
+    if (edad >= 18) {
+        if (edad >= 60) {
+            document.write("Eres una persona adulta mayor.");
+        } else {
+            document.write("Eres una persona adulta.");
+        }
+    } else {
+        if (edad >= 13) {
+            document.write("Eres adolescente.");
+        } else {
+            document.write("Eres menor de edad.");
+        }
+    }
+</script>
+
+</body>
+</html>
+```

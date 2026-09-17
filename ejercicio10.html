@@ -1,0 +1,28 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tienda de mascotas</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <h1>Bienvenido a nuestra tienda de mascotas</h1>
+    <p>Consulta si tenemos atención especial para tu mascota.</p>
+
+    <script>
+        let mascota;
+
+        mascota = prompt("¿Qué mascota tienes? (perro/gato)");
+
+        if (mascota == "perro" || mascota == "gato") {
+            document.write("<h2>Tenemos productos disponibles para tu mascota.</h2>");
+        } else {
+            document.write("<h2>Por ahora no tenemos productos para esa mascota.</h2>");
+        }
+    </script>
+
+</body>
+</html>
+```

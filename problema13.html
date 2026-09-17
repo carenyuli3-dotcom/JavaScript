@@ -1,0 +1,32 @@
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Promedio de edades</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        let contador = 1;
+        let suma = 0;
+        let edad;
+
+        while (contador <= 5) {
+            edad = parseInt(prompt('Ingrese una edad:'));
+            suma = suma + edad;
+            contador = contador + 1;
+        }
+
+        let promedio = suma / 5;
+
+        document.write('La suma de las edades es: ' + suma + '<br>');
+        document.write('El promedio de las edades es: ' + promedio);
+    </script>
+
+</body>
+
+</html>
+```

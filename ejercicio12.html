@@ -1,0 +1,44 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Productos para mascotas</title>
+</head>
+
+<body>
+
+<h1>Productos para mascotas</h1>
+
+<script>
+
+let inicio = parseInt(prompt("Ingrese el número inicial de productos:"));
+let final = parseInt(prompt("Ingrese el número final de productos:"));
+let paso = parseInt(prompt("Ingrese de cuánto en cuánto desea avanzar:"));
+
+if (inicio <= final) {
+
+    while (inicio <= final) {
+
+        document.write("Producto número: " + inicio + "<br>");
+        inicio = inicio + paso;
+
+    }
+
+} else {
+
+    while (inicio >= final) {
+
+        document.write("Producto número: " + inicio + "<br>");
+        inicio = inicio - paso;
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>
+```
